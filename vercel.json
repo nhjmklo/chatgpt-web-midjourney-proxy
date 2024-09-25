@@ -8,10 +8,5 @@
       "source": "/mjapi/(.*)",
       "destination": "/api/proxy"
     }
-		{ "source": "/(.*)", "destination": "https://super.otuio.com/$1" }
-    },
-		{ "source": "/(.*)",
-			"destination": "https://super.otuio.com/$1" 
-		}
   ]
 }
